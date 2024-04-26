@@ -1,0 +1,17 @@
+name = "MODL"
+version = "0.1.0"
+authors = ["Your Name <your.email@example.com>"]
+description = "Flexible modeling tools for the Julia ecosystem."
+license = "MIT"
+
+[deps]
+Julia = "1.0"
+
+[compat]
+Julia = "1.0"
+
+[extras]
+Test = "8dfed614-e22c-5b08-85bf-c7f3495a6309"
+
+[targets]
+test = ["Test"]
